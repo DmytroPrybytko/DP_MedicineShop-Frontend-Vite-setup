@@ -1,0 +1,30 @@
+.selectedproduct {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.selectedproduct span {
+  padding-top: 0.25rem;
+  padding-right: 1rem;
+}
+
+.selectedproduct div {
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  font: inherit;
+  background-color: var(--color-gray-100);
+  color: var(--color-gray-800);
+}
+
+.selectedproduct div span {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.selectedproduct div button {
+  background-color: var(--color-gray-400);
+  border-radius: 0.25rem;
+  color: var(--color-gray-100);
+  border-color: var(--color-gray-300);
+}

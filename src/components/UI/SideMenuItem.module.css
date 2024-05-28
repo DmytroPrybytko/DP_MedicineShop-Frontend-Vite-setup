@@ -1,0 +1,17 @@
+.disabled {
+    color: var(--color-gray-900);
+    pointer-events: none;
+    padding: 0.5rem;
+}
+
+.withCircle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -4px; /* Adjust this value based on your design */
+    transform: translateY(-50%);
+    width: 7px; /* Adjust this value based on your design */
+    height: 7px; /* Adjust this value based on your design */
+    border-radius: 50%;
+    background-color: var(--color-gray-900); /* Adjust the color as needed */
+}

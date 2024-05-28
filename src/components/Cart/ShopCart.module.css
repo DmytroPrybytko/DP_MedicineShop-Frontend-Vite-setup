@@ -1,0 +1,68 @@
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions button,
+.actions h4 {
+    padding: 0.2 rem;
+    margin: 0;
+}
+
+/* table {
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+    background-color: var(--color-gray-600);
+    color: var(--color-primary-300)
+}
+
+tr {
+    border-top: 2px solid rgb(122, 13, 13);
+  border-bottom: 2px solid rgb(119, 35, 35);
+} */
+.shop_name {
+    text-align: center;
+    padding-top: 0.5rem;
+    color: var(--color-primary-300);
+}
+
+table {
+    max-width: max-content;
+    margin: 1rem auto;
+    padding: 1rem;
+    table-layout: fixed;
+    border-spacing: 1rem;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+table thead {
+    color: var(--color-primary-300);
+}
+
+table tbody {
+    color: var(--color-gray-200);
+}
+
+.center {
+    text-align: center;
+}
+
+.actions {
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 50%;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.actions div {
+    padding: 0.5rem;
+    color: var(--color-primary-300);
+}

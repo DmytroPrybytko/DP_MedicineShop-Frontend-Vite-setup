@@ -1,0 +1,15 @@
+.cart_container {
+    width: 75%;
+    padding-left: 5rem;
+}
+.cart {
+    height: 60vh;
+    /* Set the height as desired */
+    overflow-y: auto;
+    /* Add vertical scrolling */
+    background-color: transparent;
+}
+
+.center {
+    text-align: center;
+}

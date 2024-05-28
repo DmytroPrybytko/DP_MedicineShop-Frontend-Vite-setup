@@ -1,0 +1,41 @@
+.center {
+    text-align: center;
+}
+
+.shop_name {
+    text-align: center;
+    padding-top: 0.5rem;
+    color: var(--color-primary-300);
+}
+
+table {
+    max-width: max-content;
+    margin: 1rem auto;
+    padding: 1rem;
+    table-layout: fixed;
+    border-spacing: 1rem;
+    text-align: center;
+    border-collapse: collapse;
+    border-bottom: 1px red;
+
+}
+
+table thead {
+    color: var(--color-primary-300);
+}
+
+.order_container {
+    height: 75vh;
+    /* Set the height as desired */
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.order {
+    max-width: 100%;
+}
+
+.order hr {
+    border-color: var(--color-primary-300);
+}

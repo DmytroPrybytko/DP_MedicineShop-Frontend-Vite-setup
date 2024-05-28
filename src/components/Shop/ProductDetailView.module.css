@@ -1,0 +1,13 @@
+.product {
+    max-width: 40rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: var(--color-gray-200);
+    color: var(--color-gray-700);
+}
+
+.product img {
+    max-width: 100%;
+}
+
+

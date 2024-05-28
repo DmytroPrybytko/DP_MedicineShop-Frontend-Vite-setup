@@ -1,0 +1,72 @@
+.shop_list {
+    width: 20%;
+    height: 80vh;
+    /* Set the height as desired */
+    overflow-y: auto;
+    /* Add vertical scrolling */
+    background-color: var(--color-gray-700);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.shop_list__item {
+    position: relative;
+    min-width: 100%;
+    cursor: pointer;
+    padding: 0.3rem;
+    margin-bottom: 0.1rem;
+    transition: background-color 0.3s;    
+    border-radius: 20%;
+    display: flex;
+}
+
+.withCircle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -4px; /* Adjust this value based on your design */
+    transform: translateY(-50%);
+    width: 7px; /* Adjust this value based on your design */
+    height: 7px; /* Adjust this value based on your design */
+    border-radius: 50%;
+    background-color:  var(--color-active-400); /* Adjust the color as needed */
+}
+
+.shop_list__item a {
+    width: 100%;
+    text-decoration: none;
+    color: var(--color-active-400);
+    cursor: pointer;
+    padding: 8px;
+    margin-bottom: 4px;
+    transition: background-color 0.3s;
+}
+
+.shop_list__item a:hover {
+    color: var(--color-gray-900);
+    background-color: var(--color-gray-600);
+    border-radius: 5px;
+}
+
+.shop_list__item a.active:hover::before {
+    background-color: #00ff00; /* Adjust the hover color as needed */
+}
+
+.shop_list__item a.active {
+    color: var(--color-gray-100);
+    background-color: var(--color-gray-600);
+    border-radius: 5px;
+}
+
+.shop_list__item a.active.withCircle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -4px; /* Adjust this value based on your design */
+    transform: translateY(-50%); /* Adjust this value based on your design */
+    height: 7px; /* Adjust this value based on your design */
+    width: 7px;
+    border-radius: 50%;
+    background-color: var(--color-gray-100); /* Adjust the color as needed */
+    margin-right: 2rem;
+}
